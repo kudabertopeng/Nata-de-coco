@@ -1,0 +1,133 @@
+html 
+  body {
+    margin: 0;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    background-color: #222020;
+    padding-bottom: 150px;
+  } 
+  section {
+    padding-top: 100px;
+  }
+  nav p:hover {
+    scale: 1.2;
+    transform: translateX(-20px);
+    cursor: default;
+  }
+  
+  .icon {
+    padding-left: 10px;
+  }
+  
+  .icon a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: all 0.6s ease;
+  }
+  
+  .icon a:hover {
+    color: rgb(71, 69, 69);
+    background: white;
+    scale: 1.1;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: rgb(200, 196, 255);
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: all 0.6s ease;
+  }
+  
+  .menu a:hover {
+    color: rgb(52, 49, 49);
+    background-color: rgb(200, 196, 255);
+    scale: 1.1;
+  }
+  
+  .container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    height: 500px;
+  }
+  
+  .img img {
+    width: auto;
+    height: 250px;
+  }
+  
+  .animation-card {
+    position: relative;
+    width: 350px;
+    height: 200px;
+    box-shadow: 0 0 5px black;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 20px;
+    transition: all .5s;
+  }
+  
+  .animation-card .card-title {
+    margin: 0;
+    margin-top: 10px;
+  }
+  
+  .animation-card .img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+  }
+  
+  .animation-card:hover .img img {
+    scale: 110%;
+    filter: opacity(75%);
+    transition: 0.5s;
+  }
+  
+  .animation-card .img img {
+    width: 100%;
+    transition: 0.5s;
+  }
+  
+  .animation-card .description {
+    font-size: small;
+    position: absolute;
+    top: 210px;
+    padding: 10px 10px;
+    transition: 0.5s;
+    color: rgb(224, 224, 224);
+    text-shadow: 2px 2px 30px black;
+  }
+  
+  .animation-card .description h2 {
+    font-size: x-large;
+    padding-bottom: 10px;
+  }
+  
+  .animation-card:hover .description {
+    top: 0px;
+    transition: 0.5s;
+  }
+  
+  .animation-card .description a {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+  }
+  
+  .animation-card button {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    background-color: rgb(197, 197, 197);
+    padding: 5px;
+    border-radius: 5px;
+    width: 50%;
+    height: 50%;
+  }
