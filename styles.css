@@ -1,0 +1,261 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image:url("bagron.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+main {
+    flex: 1; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #44392c; 
+    padding: 10px 20px;
+    transition-duration: 5s;
+    top: 0;
+    bottom: 0;
+}
+
+.logo img {
+    max-height: 60px; 
+    margin-left: auto; 
+}
+
+.nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white; 
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 20px;
+    transition: background-color 0.5s;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    background-color: rgb(114, 57, 24);
+    border-radius: 10px;
+}
+section{
+    padding: 60px 20px;
+    text-align: center;
+    min-height: 20vh;
+}
+.tropical-button {
+    background-color: #ffb347; 
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  .About {
+    padding: 60px 20px;
+    background-image: url('bg-nata.jpg'); /* opsional */
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+  
+  .About-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .gambar {
+    flex: 1 1 300px;
+    max-width: 400px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  }
+  
+  .gambar img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .About-text {
+    flex: 2 1 500px;
+    flex: 1 1 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;       
+  align-items: center;           
+  text-align: center;
+  margin-top: 40px;
+  }
+  
+  .About-text h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+   
+  .tropical-button:hover {
+    background-color: #ff9800;
+    transform: scale(1.05);
+  }
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 400px;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    
+}
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .product-card {
+    width: 280px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    padding: 16px;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    border: 2px solid transparent;
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .product-card h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .product-card p {
+    margin: 6px 0;
+    color: #444;
+  }
+  
+  .product-card button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #1f3b7d;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .product-card button:hover {
+    background-color: #3458a4;
+  }
+  .product-card:hover{
+    transform: scale(1.05);
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.2);
+  animation: subtle-shake 0.3s ease-in-out;
+  border: 2px solid #2c2f8c;
+}
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('img/background.jpg'); /* opsional, jika tidak sudah pakai */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .contact-box {
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparan */
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    max-width: 600px;
+  }
+  
+  .contact-box h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-box p {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .contact-box a {
+    color: #ffd700;
+    text-decoration: none;
+  }
+  
+  .contact-box a:hover {
+    text-decoration: underline;
+  }
+  
+.brand-text{
+        font-size: 24px;
+        color: white;
+        font-family: 'Verdana', sans-serif;
+        font-weight: bold;
+        justify-content: top;
+        padding: 0px 10px;   
+}
+.logo{
+  display: flex;
+  align-items: center;    
+  justify-content: center; 
+  gap: 10px;
+  height: 100px;    
+}
+@keyframes shake {
+    0% { transform: scale(1.05) translateX(0); }
+  30% { transform: scale(1.05) translateX(-1px); }
+  60% { transform: scale(1.05) translateX(1px); }
+  100% { transform: scale(1.05) translateX(0); }
+  }
+  main {
+    flex: 1; /* biar konten utama dorong footer ke bawah */
+  }
