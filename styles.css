@@ -59,59 +59,19 @@ section{
     transition: background-color 0.3s ease, transform 0.2s ease;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   }
-  .About {
-    padding: 60px 20px;
-    background-image: url('bg-nata.jpg'); /* opsional */
-    background-size: cover;
-    background-position: center;
-    color: white;
-  }
-  
-  .About-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .gambar {
-    flex: 1 1 300px;
-    max-width: 400px;
-    background-color: rgba(255, 255, 255, 0.2);
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
-  }
-  
-  .gambar img {
-    width: 100%;
-    border-radius: 8px;
-  }
-  
-  .About-text {
-    flex: 2 1 500px;
-    flex: 1 1 500px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;       
-  align-items: center;           
-  text-align: center;
-  margin-top: 40px;
-  }
-  
-  .About-text h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-  }
-   
-  .tropical-button:hover {
-    background-color: #ff9800;
-    transform: scale(1.05);
-  }
-
+ .About h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+}
+.About p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
 
 footer {
     background-color: #333;
