@@ -60,19 +60,16 @@ section{
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   }
  .About h1 {
-  font-size: 3.5rem;
-  font-weight: 800;
+  font-size: 30px;
   margin-bottom: 20px;
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
 }
 .About p {
-  font-size: 1.2rem;
+  font-size: 20px;
   max-width: 700px;
-  margin: 0 auto;
   line-height: 1.6;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
 }
-
 footer {
     background-color: #333;
     color: white;
@@ -148,7 +145,7 @@ footer a {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('img/background.jpg'); /* opsional, jika tidak sudah pakai */
+    background-image: url('img/background.jpg'); 
     background-size: cover;
     background-position: center;
     color: white;
@@ -157,7 +154,7 @@ footer a {
   }
   
   .contact-box {
-    background-color: rgba(0, 0, 0, 0.5); /* semi-transparan */
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 30px 40px;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.4);
@@ -203,7 +200,4 @@ footer a {
   30% { transform: scale(1.05) translateX(-1px); }
   60% { transform: scale(1.05) translateX(1px); }
   100% { transform: scale(1.05) translateX(0); }
-  }
-  main {
-    flex: 1; /* biar konten utama dorong footer ke bawah */
   }
